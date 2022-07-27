@@ -1,0 +1,390 @@
+abc@DESKTOP-04V3V4L MINGW64 ~/Desktop/selenium-TestNG (new-branch12)
+$ cd
+
+abc@DESKTOP-04V3V4L MINGW64 ~
+$ git clone https://github.com/ashwinithrt/motor-Inshurance.git
+Cloning into 'motor-Inshurance'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+abc@DESKTOP-04V3V4L MINGW64 ~
+$ cd motor-Inshurance
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ ls
+README.md
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ touch AUTHORS
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ touch TODO
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ ls
+AUTHORS  README.md  TODO
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ git add AUTHORS
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   AUTHORS
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        TODO
+
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ git add TODO
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   AUTHORS
+        new file:   TODO
+
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ git commit -m "added todo and authors file"
+[main 95ee072] added todo and authors file
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 AUTHORS
+ create mode 100644 TODO
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ git mv AUTHORS CONTRIBUTE
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        renamed:    AUTHORS -> CONTRIBUTE
+
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ git commit -m "AUTHORS file renamed to CONTRIBUTE"
+[main fc29066] AUTHORS file renamed to CONTRIBUTE
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename AUTHORS => CONTRIBUTE (100%)
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ git reset HEAD CONTRIBUTE
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ cat CONTRIBUTE
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ vi CONTRIBUTE
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ ls
+CONTRIBUTE  README.md  TODO
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   CONTRIBUTE
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ git reset HEAD CNTRIBUTE
+Unstaged changes after reset:
+M       CONTRIBUTE
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ git reset HEAD CONTRIBUTE
+Unstaged changes after reset:
+M       CONTRIBUTE
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   CONTRIBUTE
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ cat CONTRIBUTE
+ASHWINI RAJENDRA THORAT
+HAVING SELENIUM EXPERIENCE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ ls
+CONTRIBUTE  README.md  TODO
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   CONTRIBUTE
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ git restore CONTRIBUTE
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ cat CONTRIBUTE
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ git restore CONTRIBUTE CONTRIBUTE
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ cat CONTRIBUTE
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ cat CONTRIBUTE
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        src/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ git add src/
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ git commit -m "added src folder and fibonacci program"
+[main de0df7d] added src folder and fibonacci program
+ 1 file changed, 15 insertions(+)
+ create mode 100644 src/fibonacci.java.txt
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance (main)
+$ cd src/
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance/src (main)
+$ ls
+fibonacci.java.txt
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance/src (main)
+$ cd src/
+bash: cd: src/: No such file or directory
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance/src (main)
+$ git commit -m "added addition program"
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        addition.java.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance/src (main)
+$ cd src/
+bash: cd: src/: No such file or directory
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance/src (main)
+$ ls
+addition.java.txt  fibonacci.java.txt
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance/src (main)
+$ git rm addition.java.txt
+fatal: pathspec 'addition.java.txt' did not match any files
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance/src (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        addition.java.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance/src (main)
+$ git restore addition.java.txt
+error: pathspec 'addition.java.txt' did not match any file(s) known to git
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance/src (main)
+$ git rm addition.java
+fatal: pathspec 'addition.java' did not match any files
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance/src (main)
+$ git rm addition.java.txt
+fatal: pathspec 'addition.java.txt' did not match any files
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance/src (main)
+$ git add addition.java.txt
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance/src (main)
+$ ls
+addition.java.txt  fibonacci.java.txt
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance/src (main)
+$ git commit -m "added addition program"
+[main a3f0e89] added addition program
+ 1 file changed, 1 insertion(+)
+ create mode 100644 src/addition.java.txt
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance/src (main)
+$ ls
+addition.java.txt  fibonacci.java.txt
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance/src (main)
+$ git rm addition.java.txt
+rm 'src/addition.java.txt'
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance/src (main)
+$ git rm src/addition.java.txt
+fatal: pathspec 'src/addition.java.txt' did not match any files
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance/src (main)
+$ git rm addition.java.txt
+fatal: pathspec 'addition.java.txt' did not match any files
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance/src (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    addition.java.txt
+
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance/src (main)
+$ git restore addition.java.txt
+error: pathspec 'addition.java.txt' did not match any file(s) known to git
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance/src (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    addition.java.txt
+
+
+abc@DESKTOP-04V3V4L MINGW64 ~/motor-Inshurance/src (main)
+$
